@@ -1,19 +1,17 @@
 {
   "name": "ci-cd-pipeline",
   "version": "1.0.0",
+  "description": "A sample project for CI/CD pipeline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imamar9/CI-CD-pipeline.git"
-  },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imamar9/CI-CD-pipeline/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/imamar9/CI-CD-pipeline#readme",
-  "description": ""
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
 }
